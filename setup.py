@@ -4,7 +4,7 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'name' : 'pyintercepter',
+    'name' : 'pitm',
     'description' : 'A simple HTTP/HTTPS packet intecepter',
     'maintainer' : 'Atmaram Shetye',
     'url' : 'http://localhost/',
@@ -12,7 +12,7 @@ config = {
     'maintainer_email' : 'atmaram.shetye@gmail.com',
     'version' : '0.1',
     'install_requires' : ['nose'],
-    'packages' : ['pyintercepter'],
+    'packages' : ['pitm'],
     'scripts' : [],
 }
 
